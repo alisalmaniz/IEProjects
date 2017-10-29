@@ -1,0 +1,47 @@
+
+body{
+
+direction: rtl;
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin:auto;
+    z-index:100000;
+    width:100%;
+    height: 20%;
+    background-color: white;
+}
+
+.main{
+    margin-top: 10%;
+
+}
+
+.search, .login{
+    display: inline-block;
+}
+
+
+.navbar-top{
+    background-color: lightgray;
+    text-align: right;
+
+}
+
+.navbar-top-list{
+    overflow: hidden;
+    list-style: none;
+}
+
+.navbar-top-list li {
+
+    display: inline-block;
+}
+
+.navbar-top-list a:hover {
+
+    color: black;
+}
