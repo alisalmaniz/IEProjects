@@ -1,31 +1,24 @@
 
 body{
-
     direction: rtl;
     font-family: "B Yekan+";
+    margin: 0;
 }
 a {
     text-decoration: none;
 }
+
 .header{
     position: fixed;
     top: 0;
     left: 0;
-    margin:auto;
     z-index:100000;
     width:100%;
-    height: 20%;
+    height: 130px;
     background-color: white;
 }
-
-.main{
-    margin-top: 10%;
-
-}
-
-.content{
-    margin-top: 1%;
-    padding: 0.5%;
+.header-content{
+    height: 80px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -89,23 +82,107 @@ a {
     background-color: blue;
 }
 
-.navbar-top{
-    background-color: lightgray;
-    text-align: right;
 
+.navbar-top{
+    background-color: #EEEEEE;
+    text-align: right;
+    height: 50px;
 }
 
 .navbar-top-list{
+    display: inline-block;
     overflow: hidden;
     list-style: none;
 }
 
 .navbar-top-list li {
-
+    padding-right: 15px;
     display: inline-block;
+    color: #BBBBBB;
 }
+.navbar-top-list a {
 
+    color: #AAAAAA;
+}
 .navbar-top-list a:hover {
 
     color: black;
+}
+
+.main{
+    width: 100%;
+}
+#main-fake-margin{
+    width: 100%;
+    height: 130px;
+    background-color: transparent;/*necessary for empty div to get space*/
+}
+#main-image{
+
+    width: 100%;
+    height: 500px;
+}
+
+.footer{
+
+}
+.footer-content{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.footer-links{
+    height: 60px;
+    padding: 0;
+    text-align: center;
+
+}
+.footer-item a{
+    color: gray;
+}
+#footer-hint{
+    padding: 15px;
+    float: right;
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+#footer-hint a{
+    width: 100%;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
+#footer-text{
+    font-size: 18px;
+    line-height: 40px;
+    color: gray;
+    text-align: justify;
+}
+#footer-follow{
+    float: right;
+    clear: right;
+    width: 290px;
+    padding: 15px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-follow-link img{
+    height: 50px;
+    width: 50px;
+}
+#footer-border{
+    margin-top: 10px;
+    border-top: 1px solid blue;
+}
+#footer-copy-right{
+    display: inline-block;
+    color: blue;
 }
