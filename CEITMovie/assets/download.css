@@ -1,6 +1,34 @@
 input, button{
     font-family: "B Yekan+";
 }
+.login-register{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+#LoginRegister{
+    height: 20px;
+    width: 20px;
+    margin-left: 10px;
+    border: 2px solid green;
+    border-radius: 50%;
+    padding: 10px;
+
+}
+#LoginRegister img{
+    height:inherit;
+    width: inherit;
+}
+#LoginRegister:hover{
+
+}
+#LoginRegister2{
+    font-size: 25px;
+    color: gray;
+    background-color: transparent;
+}
+
 .main-content{
     margin-left: 100px;
     margin-right: 100px;
@@ -176,7 +204,7 @@ input, button{
     font-size: 20px;
 }
 .filter-apply{
-    margin: 40px 5px 40px 5px;
+    margin: 20px 5px 0px 5px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
@@ -271,6 +299,9 @@ input, button{
      font-weight: bold;
      font-size: 20px;
  }
+.download-subtitle i{
+    color: white;
+}
 .download-basket{
     display: flex;
     justify-content: center;
@@ -283,19 +314,43 @@ input, button{
 }
 .download-details{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     width: 63%;
-    border-top: 1px solid #00CCAA;
-    border-bottom: 1px solid #00CCAA;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
 }
+
+.download-details-right, .download-details-lefts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+}
+.download-details-right i{
+    padding: 0 10px 0 30px;
+    margin: 0;
+}
+.download-details p{
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+.download-details p.kbps{
+    padding: 0 2px 0 2px;
+    margin: 0;
+}
+.download-details-lefts img{
+    height:inherit;
+    width: inherit;
+}
+
 .download-resolution{
     display: flex;
     justify-content: center;
     align-items: center;
     width: 15%;
     border-radius: 8px 0 0 8px;
-    background-color: #00CCAA;
 }
 .download-resolution p{
     color: white;
@@ -305,4 +360,34 @@ input, button{
 .download-resolution p.resolution-bold{
     font-weight: bold;
     font-size: 18px;
+}
+
+
+
+.background-green{
+    background-color: #00CCAA;
+}
+.background-yellow{
+    background-color: #F8D50E;
+}
+.background-blue{
+    background-color: #33BBDD;
+}
+.border-color-green{
+    border-color: #00CCAA;
+}
+.border-color-yellow{
+    border-color: #F8D50E;
+}
+.border-color-blue{
+    border-color: #33BBDD;
+}
+.color-green{
+    color: #00CCAA;
+}
+.color-yellow{
+    color: #F8D50E;;
+}
+.color-blue{
+    color: #33BBDD;
 }

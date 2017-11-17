@@ -1,6 +1,10 @@
 input, button{
     font-family: "B Yekan+";
 }
+#LoginRegister:hover{
+    color: white;
+    background-color: blue;
+}
 .main{
     width: 100%;
 }
