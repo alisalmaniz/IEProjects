@@ -1,0 +1,152 @@
+input, button{
+    font-family: "B Yekan+";
+}
+.main-content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.movie-options{
+    margin-top: 30px;
+}
+.movie-options-list{
+    width: 100%;
+    font-size: 17px;
+    box-sizing: border-box;
+    display: table;
+}
+.movie-options-list li{
+    padding: 0px;
+    width: 15%;
+    display: table-cell;
+}
+.movie-options-list li:active a{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.movie-options-list li a{
+    text-align: center;
+    color: gray;
+    height: 40px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+.movie-options-list li a:hover, .movie-options-list li:active a{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.rating{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#progressbar{
+    position: relative;
+    height: 4px;
+    width: 400px;
+    background-color: transparent;
+    direction: ltr;
+}
+#progressbar-track{
+    z-index:1;
+    width: inherit;
+    height: inherit;
+    background-color: gray;
+}
+#progressbar-thumb{
+    position: absolute;
+    top: 0;
+    z-index:2;
+    width: 80%;
+    height: inherit;
+    background-color: #15C680;
+}
+#rate-progress-p-top{
+
+    color: #15C680;
+    font-size: 18px;
+}
+
+#rate-progress-p-bottom{
+    color: lightgray;
+    font-size: 18px;
+}
+.recommended{
+    width: 300px;
+}
+.recommended p{
+    color: #4040FF;
+    font-size: 21px;
+}
+.rate{
+    text-align: center;
+}
+.rate p{
+    font-size: 20px;
+    width: 300px;
+    color: #BBBBBB;
+}
+
+#rate-btn{
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    background-color: #5050FF;
+}
+#rate-btn:hover{
+    background-color: #6060FF;
+}
+.space{
+    background-color: lightgray;
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter-types{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 15%;
+}
+.filter-types span.title-selected{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 90%;
+    padding: 10px;
+}
+.filter-types span.title{
+    padding: 10px;
+    color: gray;
+}
+.filter-types span.selected{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 10px;
+    background-color: #6060FF;
+    color: white;
+    font-weight: bold;
+}
+.filter-types i{
+    color: gray;
+    font-size: 27px;
+    width: 10%;
+}
+#filter-language span.selected{
+    border-color: black;
+    background-color: white;
+    color: black;
+}

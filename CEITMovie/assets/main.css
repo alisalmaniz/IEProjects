@@ -1,114 +1,6 @@
-
-body{
-    direction: rtl;
+input, button{
     font-family: "B Yekan+";
-    margin: 0;
 }
-a {
-    text-decoration: none;
-}
-
-.header{
-    position: fixed;
-    top: 0;
-    left: 0;
-    z-index:100000;
-    width:100%;
-    height: 130px;
-    background-color: white;
-}
-.header-content{
-    height: 80px;
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    align-items: center;
-}
-.search{
-    margin-right: auto;
-    margin-left: auto;
-    width: 30%;
-    background-color: #EEEEEE;
-    padding: 6px;
-    border-radius: 10px;
-}
-#SearchForm{
-    display: flex;
-}
-#SearchText{
-    padding: 10px;
-    width: 100%;
-    border: none;
-    color: #BBBBBB;
-    background-color: inherit;
-}
-#SearchText:focus{
-    outline: none;
-}
-#SearchSubmit{
-    border: none;
-    color: #BBBBBB;
-    background-color: inherit;
-}
-.fa-search{
-    font-size: 30px;
-}
-.login-register{
-    margin-right: 5%;
-    display: flex;
-    align-items: center;
-    height: auto;
-}
-#LoginRegister{
-    margin-left: 10px;
-    border: 1px solid blue;
-    border-radius: 8px;
-    padding: 10px;
-
-}
-#LoginRegister:hover{
-    color: white;
-    background-color: blue;
-}
-#LoginRegister2{
-    height: 45px;
-    width: 45px;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    background-color: blue;
-}
-
-
-.navbar-top{
-    background-color: #EEEEEE;
-    text-align: right;
-    height: 50px;
-}
-
-.navbar-top-list{
-    display: inline-block;
-    overflow: hidden;
-    list-style: none;
-}
-
-.navbar-top-list li {
-    padding-right: 15px;
-    display: inline-block;
-    color: #BBBBBB;
-}
-.navbar-top-list a {
-
-    color: #AAAAAA;
-}
-.navbar-top-list a:hover {
-
-    color: black;
-}
-
 .main{
     width: 100%;
 }
@@ -117,10 +9,10 @@ a {
     height: 130px;
     background-color: transparent;/*necessary for empty div to get space*/
 }
-#main-image{
+#main-image img{
 
     width: 100%;
-    height: 500px;
+    height: 700px;
 }
 
 .footer{
