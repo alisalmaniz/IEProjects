@@ -125,18 +125,19 @@ input, button{
     display: flex;
     justify-content: flex-start;
     align-items: center;
+	padding: 5px;
     width: 90%;
-    padding: 10px;
 }
 .filter-types span.title{
-    padding: 10px;
     color: gray;
+    padding-left: 3px;
 }
 .filter-types span.selected{
     border: 1px solid transparent;
     border-radius: 8px;
-    padding: 10px;
-    background-color: #6060FF;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    background-color: #4080FF;
     color: white;
     font-weight: bold;
 }
@@ -149,4 +150,159 @@ input, button{
     border-color: black;
     background-color: white;
     color: black;
+}
+#filter-language span.title{
+    padding: 0;
+}
+#filter-Season span.selected{
+    background-color: gray;
+}
+#filter-Season{
+
+}
+
+.display-model{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 5%;
+}
+.display-icon{
+    padding: 6px;
+    font-size: 28px;
+}
+.statement a, .statement i{
+    color: #E57D22;
+    font-size: 20px;
+}
+.filter-apply{
+    margin: 40px 5px 40px 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.filter-apply input[type=radio]{
+    position: absolute;
+    opacity: 0;
+}
+.filter-apply input[type=radio]:checked ~ .mark{
+    visibility: visible;
+}
+.filter-apply p{
+    display: inline;
+}
+.filter-apply-radio{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+}
+.filter-apply .checkmark{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.filter-apply .mark{
+    position: absolute;
+    top: 32px;
+    right: 16px;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    border: transparent;
+    visibility: hidden;
+}
+.download-title-bar p{
+    margin: 0;
+    padding: 2px;
+    display: inline-block;
+    color: blue;
+    border-bottom: 3px solid #3030FF;
+}
+.download-title-bar div{
+    background-color: #3030FF;
+    height: 3px;
+}
+.download-list{
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.download-item{
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+.download-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0 8px 8px 0;
+    width: 10%;
+    background-color: black;
+}
+.download-size i, .download-size span{
+    color: white;
+    padding: 5px;
+}
+.download-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #202020;
+}
+.download-subtitle p{
+     display: inline-block;
+     margin: 0;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+ }
+.download-basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #404040;
+}
+.download-basket i{
+    color: white;
+}
+.download-details{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 63%;
+    border-top: 1px solid #00CCAA;
+    border-bottom: 1px solid #00CCAA;
+}
+.download-resolution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-radius: 8px 0 0 8px;
+    background-color: #00CCAA;
+}
+.download-resolution p{
+    color: white;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+.download-resolution p.resolution-bold{
+    font-weight: bold;
+    font-size: 18px;
 }
