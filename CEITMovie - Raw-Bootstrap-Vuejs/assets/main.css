@@ -1,0 +1,277 @@
+input, button{
+    font-family: "B Yekan+";
+}
+#LoginRegister:hover{
+    color: white;
+    background-color: blue;
+}
+.main{
+    width: 100%;
+}
+#main-fake-margin{
+    width: 100%;
+    height: 130px;
+    background-color: transparent;/*necessary for empty div to get space*/
+}
+#main-image{
+    position: relative;
+}
+
+#main-image img{
+    width: 100%;
+    height: 700px;
+}
+
+#search-container{
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    padding: 6px;
+    width: 45%;
+}
+#search-title{
+    float: left;
+    font-size: 20px;
+    color: #EEEEEE;
+    width: 80%;
+
+}
+
+#SearchButton, #SearchPlusButton{
+    float: right;
+    clear: left;
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin: 0 5px 0 5px;
+}
+#SearchButton{
+    background-color: #00CCAA;
+}
+#SearchPlusButton{
+    background-color: #6060FF;
+}
+#Search-form{
+
+}
+#Search-text{
+    padding: 10px;
+    border: none;
+    color: #BBBBBB;
+    background-color: #EEEEEE;
+    width: 80%;
+    height: 50px;
+    border-radius: 10px;
+}
+#Search-text:focus{
+    outline: none;
+}
+#Search-submit{
+    clear: right;
+    border: none;
+    color: #EEEEEE;
+    background-color: #e5a92f;
+    display: block;
+    float: left;
+    border-radius: 10px;
+    width: 30%;
+    margin: 10px;
+    padding: 10px;
+}
+.fa-search, .fa-search-plus{
+    font-size: 20px;
+}
+
+
+.carousel-inner{
+    margin-right: 13%;
+    width: auto;
+    background-color: #111111;
+}
+#mainCarousel {
+
+    background-color: #111111;
+    padding: 20px;
+}
+.carousel-inner .subitem{
+    position: relative;
+}
+.carousel-inner .subitem .info{
+    height: 100%;
+    width: 96%;
+    padding-left: 10%;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    top:0;
+    background-color: rgba(17,17,17,0.5);
+    visibility: hidden;
+}
+.carousel-inner .subitem .info a{
+    color: white;
+    font-size: 40px;
+    padding: 4px;
+}
+
+#dagh{
+    padding-top: 20px;
+    margin-right: 80px;
+    color: #6a479e;
+    font-size: 23px;
+}
+
+#mainCarousel2 {
+
+    background-color: white;
+    padding: 5px 20px 20px 20px;
+}
+.ci2{
+    background-color: white;
+    margin-right: 50px;
+}
+.cc2{
+    background-color: white;
+    color: #EEEEEE;
+    opacity: 0.5;
+    width: 0;
+    height: 0;
+    margin: 10px 0 0 90px;
+}
+.cc2 span{
+    color: #000;
+}
+.si2{
+    position: relative;
+    height: 300px;
+    width: 230px;
+    padding: 0 3px 0 4px;
+}
+.si2 img{
+    position: absolute;
+    left: 18%;
+    top: 5%;
+    height: 65%;
+    width: 65%;
+}
+.subitemBackU1{
+    background-color: #404040;
+    height: 50%;
+}
+.subitemBackD1{
+    background-color: #e5ae7a;
+    height: 50%;
+}
+.subitemBackU2{
+    background-color: #6bb0a0;
+    height: 50%;
+}
+.subitemBackD2{
+    background-color: #ac736f;
+    height: 50%;
+}
+.subitemBackU3{
+    background-color: #828bc7;
+    height: 50%;
+}
+.subitemBackD3{
+    background-color: #e5bb73;
+    height: 50%;
+}
+.subitemBackU4{
+    background-color: #AAAAAA;
+    height: 50%;
+}
+.subitemBackD4{
+    background-color: #639eb1;
+    height: 50%;
+}
+.subitemBackU5{
+    background-color: #608059;
+    height: 50%;
+}
+.subitemBackD5{
+    background-color: #ab74a9;
+    height: 50%;
+}
+.types{
+    position: absolute;
+    top: 75%;
+    padding: 0 15% 0 19%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.rateQuality{
+    position: absolute;
+    top: 87%;
+    padding: 0 15% 0 20%;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+}
+.types a{
+    font-size: 11px;
+    text-align: center;
+    padding: 3px 10px 3px 10px;
+    border-radius: 5px;
+    border: 3px solid #a69490;
+    color: #222;
+    background: #e9d8d7;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.rateQuality a{
+    padding: 3px 8px 3px 8px;
+    border-radius: 5px;
+    border: 1px solid #333;
+    color: #333;
+}
+.rateQuality i{
+    color: #fbb800;
+}
+
+
+#static-banner{
+    background-color: #ac2a27;
+    height: 250px;
+}
+
+#static-banner-texts{
+    float: right;
+    width: 60%;
+    height: 250px;
+    padding: 40px;
+}
+
+#static-banner img{
+    width: 40%;
+    height: 250px;
+}
+#static-banner-texts #t1{
+    font-size: 22px;
+    color: #EEEEEE;
+    display: block;
+    margin: 15px;
+}
+#static-banner-texts #t2{
+    font-size: 18px;
+    color: #EEEEEE;
+    display: block;
+    margin: 15px;
+}
+#static-banner-texts #t3{
+    color: #EEEEEE;
+    background-color: #ac2a27;
+    display: block;
+    font-size: 19px;
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 15px;
+}

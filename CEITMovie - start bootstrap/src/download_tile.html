@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>salma</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/global.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../assets/download.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../assets/tile.css" type="text/css" media="all"/>
+</head>
+<body>
+
+<div class="header">
+
+    <div class="header-content">
+        <div class="login-register">
+            <a id="LoginRegister" href="login.html">
+                <img src="../res/music.jpg">
+            </a>
+            <a id="LoginRegister2" href="login2.html" >
+                <i class="fa fa-bell-o"></i>
+            </a>
+        </div>
+        <div class="search">
+            <form id="SearchForm" method="get" action="search.html">
+                <input id="SearchText" type="text" placeholder="جستجوی فیلم، سریال، بازیگر، کارگردان و...">
+                <button id="SearchSubmit" type="submit" >
+                    <i class="fa fa-search"></i>
+                </button>
+            </form>
+        </div>
+
+    </div>
+    <div class="navbar-top" >
+        <ul class="list navbar-top-list">
+            <li class="menu-item">
+                <a href="#home">آخرین ها</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">فیلم</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">سریال</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">انیمیشن</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">مستند</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">مجموعه ها</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">انیمه</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">دوبله</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">زیک زاک</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">باکس آفیس</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">آنونس</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+            <li class="menu-item">
+                <a href="#home">برترین ها</a>
+                <i class="fa fa-angle-down"></i>
+            </li>
+        </ul>
+
+    </div>
+</div>
+<div class="main">
+    <div id="main-fake-margin">
+
+    </div>
+    <div class="main-content">
+        <div class="movie-options">
+            <ul class="list movie-options-list">
+                <li class="menu-item">
+                    <a href="#home">دانلود</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">زیرنویس</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">نظرکاربران</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">نقد و بررسی</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">عوامل فیلم</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">جوایز</a>
+                </li>
+                <li class="menu-item">
+                    <a href="#home">گالری</a>
+                </li>
+            </ul>
+        </div>
+        <div class="download-content">
+            <div class="rating">
+                <div class="rate-progress">
+                    <p id="rate-progress-p-top"> ارزش دانلود ۸ از ۱۰ </p>
+                    <div id="progressbar">
+                        <div id="progressbar-track">
+                        </div>
+                        <div id="progressbar-thumb">
+                        </div>
+                    </div>
+                    <p id="rate-progress-p-bottom">نتایج آرا کاربران بر اساس کارگردانی + بازیگری + فیلمنامه</p>
+                </div>
+                <div class="recommended">
+                    <p>
+                        <strong>۶۴</strong>
+                        <span> نفر از </span>
+                        <strong>۷۲</strong>
+                        <span> نفر تماشای این فیلم را</span>
+                        <strong>پیشنهاد کردند</strong>
+                    </p>
+                </div>
+                <div class="rate">
+                    <p>شما هم بر اساس ارزش دانلود به فیلم رای دهید.</p>
+                    <a id="rate-btn" href="rate">امتیاز دهید</a>
+                </div>
+
+            </div>
+            <div class="space"></div>
+            <div class="filter">
+                <button class="filter-types" id="filter-language">
+                    <span class="title-selected">
+                        <span class="title"></span>
+                        <span class="selected">همه ی زبان ها</span>
+                    </span>
+                    <i class="fa fa-angle-down filter-icon-down"></i>
+                </button>
+                <button class="filter-types" id="filter-release">
+                    <span class="title-selected">
+                        <span class="title">ریلیز</span>
+                        <span class="selected">همه</span>
+                    </span>
+                    <i class="fa fa-angle-down filter-icon-down"></i>
+                </button>
+                <button class="filter-types" id="filter-kind">
+                    <span class="title-selected">
+                        <span class="title">نوع</span>
+                        <span class="selected">همه</span>
+                    </span>
+                    <i class="fa fa-angle-down filter-icon-down"></i>
+                </button>
+                <button class="filter-types" id="filter-resolution">
+                    <span class="title-selected">
+                        <span class="title">رزولوشن</span>
+                        <span class="selected">همه</span>
+                    </span>
+                    <i class="fa fa-angle-down filter-icon-down"></i>
+                </button>
+                <button class="filter-types" id="filter-Season">
+                    <span class="title-selected">
+                        <span class="title">فصل</span>
+                        <span class="selected">یک</span>
+                    </span>
+                    <i class="fa fa-angle-down" id="filter-icon-down"></i>
+                </button>
+
+                <button class="display-model" id="display-list">
+                    <i class="fa fa-list display-icon"></i>
+                </button>
+                <button class="display-model" id="display-grid">
+                    <i class="fa fa-th display-icon"></i>
+                </button>
+                <div class="statement">
+                    <i class="fa fa-question"></i>
+                    <a href="help">راهنما</a>
+                </div>
+            </div>
+            <div class="filter-apply">
+                <label class="filter-apply-radio">
+                    <input type="radio" name="apply" value="best" checked="checked">
+                    <span class="checkmark"></span>
+                    <span class="mark"></span>
+                    <p>پیشنهادی</p>
+                </label>
+                <label class="filter-apply-radio">
+                    <input type="radio" name="apply" value="pro">
+                    <span class="checkmark"></span>
+                    <span class="mark"></span>
+                    <p>حرفه ای</p>
+                </label>
+
+            </div>
+            <div class="download">
+                <div class="download-title-bar">
+                    <p>BluRay</p>
+                    <div></div>
+                </div>
+                <div class="wrap">
+                    <div class="tile ">
+                        <div class="innerContent border-color-green">
+                            <div class="main">
+                                <i class="fa fa-flag-o"></i>
+                                <div class="info">
+                                    <dive>
+                                        <span class="resolution color-green">1080p</span>
+                                        <span class="kind">BluRay</span>
+                                    </dive>
+                                    <div>
+                                        <span class="size">3.4GB</span>
+                                        <span class="format">MKVCage</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer background-green">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile ">
+                        <div class="innerContent border-color-yellow">
+                            <div class="main">
+                                <i class="fa fa-flag-o"></i>
+                                <div class="info">
+                                    <dive>
+                                        <span class="resolution color-yellow">720p</span>
+                                        <span class="kind">BluRay</span>
+                                    </dive>
+                                    <div>
+                                        <span class="size">3.4GB</span>
+                                        <span class="format">Ganool</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="footer background-yellow">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="tile ">
+                        <div class="innerContent border-color-blue">
+
+                        </div>
+                    </div>
+                    <div class="tile ">
+                        <div class="innerContent border-color-yellow">
+
+                        </div>
+                    </div>
+                    <div class="tile ">
+                        <div class="innerContent border-color-yellow">
+
+                        </div>
+                    </div>
+                    <div class="tile ">
+                        <div class="innerContent border-color-blue">
+
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</div>
+
+
+</body>
+
+</html>

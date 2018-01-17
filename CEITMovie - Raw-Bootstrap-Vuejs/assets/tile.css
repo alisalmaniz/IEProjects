@@ -1,0 +1,116 @@
+.wrap{
+    overflow: hidden;
+}
+.tile{
+    width: 20%;
+    padding-bottom: 20%;
+    color: #FFF;
+    position: relative;
+    float: right;
+}
+.innerContent {
+    position: absolute;
+    left: 10px;
+    right: 10px;
+    top: 10px;
+    bottom: 10px;
+    border: 1px solid;
+    border-radius: 8px;
+    background: white;
+}
+.innerContent .main{
+    display: flex;
+    height: 80%;
+    width: 100%;
+    border-radius: 8px 8px 0 0;
+}
+.info{
+    padding: 10px;
+}
+.info span{
+    padding: 5px;
+}
+.info span.kind{
+    color: gray;
+}
+.info span.resolution{
+    font-size: 25px;
+    font-weight: bold;
+}
+.info span.size{
+    color: gray;
+    font-weight: bold;
+}
+.info span.format{
+    color: gray;
+}
+.innerContent .main i{
+    color: gray;
+    margin: 10px;
+}
+
+.innerContent .footer{
+    height: 20%;
+    width: 100%;
+    border-radius: 0 0 8px 8px;
+}
+
+
+.background-green{
+    background-color: #00CCAA;
+}
+.background-yellow{
+    background-color: #F8D50E;
+}
+.background-blue{
+    background-color: #33BBDD;
+}
+.border-color-green{
+    border-color: #00CCAA;
+}
+.border-color-yellow{
+    border-color: #F8D50E;
+}
+.border-color-blue{
+    border-color: #33BBDD;
+}
+.color-green{
+    color: #00CCAA;
+}
+.color-yellow{
+    color: #F8D50E;;
+}
+.color-blue{
+    color: #33BBDD;
+}
+
+
+
+@media only screen and (max-width : 480px) {
+    /* Smartphone view: 1 tile */
+    .tile {
+        width: 100%;
+        padding-bottom: 100%;
+    }
+}
+@media only screen and (max-width : 650px) and (min-width : 481px) {
+    /* Tablet view: 2 tiles */
+    .tile {
+        width: 50%;
+        padding-bottom: 50%;
+    }
+}
+@media only screen and (max-width : 1050px) and (min-width : 651px) {
+    /* Small desktop / ipad view: 3 tiles */
+    .tile {
+        width: 33.3%;
+        padding-bottom: 33.3%;
+    }
+}
+@media only screen and (max-width : 1290px) and (min-width : 1051px) {
+    /* Medium desktop: 4 tiles */
+    .tile {
+        width: 25%;
+        padding-bottom: 25%;
+    }
+}

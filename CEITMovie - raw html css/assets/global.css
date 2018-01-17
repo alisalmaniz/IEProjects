@@ -1,0 +1,129 @@
+
+body{
+    direction: rtl;
+    font-family: "B Yekan+";
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+    background-color: rgb(70,70,255);
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index:100000;
+    width:100%;
+    height: 130px;
+    background-color: white;
+}
+.header-content{
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.search{
+    margin-right: auto;
+    margin-left: auto;
+    width: 30%;
+    background-color: #EEEEEE;
+    padding: 6px;
+    border-radius: 10px;
+}
+#SearchForm{
+    display: flex;
+}
+#SearchText{
+    padding: 10px;
+    width: 100%;
+    border: none;
+    color: #BBBBBB;
+    background-color: inherit;
+}
+#SearchText:focus{
+    outline: none;
+}
+#SearchSubmit{
+    border: none;
+    color: #BBBBBB;
+    background-color: inherit;
+}
+.fa-search{
+    font-size: 30px;
+}
+.login-register{
+    margin-right: 5%;
+    display: flex;
+    align-items: center;
+    height: auto;
+}
+#LoginRegister{
+    margin-left: 10px;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 10px;
+}
+
+#LoginRegister2{
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: blue;
+}
+
+
+.navbar-top{
+    background-color: #EEEEEE;
+    text-align: right;
+    height: 50px;
+}
+
+.list{
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+}
+
+.list li {
+    padding-right: 15px;
+    display: inline-block;
+    color: #BBBBBB;
+}
+.list a {
+
+    color: #AAAAAA;
+}
+.list a:hover {
+
+    color: black;
+}
+
+.main{
+    width: 100%;
+}
+#main-fake-margin{
+    width: 100%;
+    height: 130px;
+    background-color: transparent;/*necessary for empty div to get space*/
+}

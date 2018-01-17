@@ -1,0 +1,321 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>salma</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <!-- bootstrap -->
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.rtlcss.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <!--
+    <script src="https://cdn.rtlcss.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+-->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+    <script src="../js/main.js" type="text/javascript" ></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/global.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../assets/main.css" type="text/css" media="all"/>
+</head>
+<body>
+
+
+<div class="header navbar-fixed-top">
+
+    <div class="row fake-margin"></div>
+    <div class="container-fluid row header-content">
+        <div class="col-sm-1"></div>
+        <div class="col-sm-2 login-register">
+            <a id="LoginRegister" href="login.html">ورود / عضویت
+            </a>
+            <a id="LoginRegister2" href="login2.html" >
+                <i class="fa fa-car"></i>
+            </a>
+        </div>
+        <div class="col-sm-3"></div>
+        <div class="col-sm-3 search">
+            <form class="row form-horizontal" id="SearchForm" method="get" action="search.html">
+                <div class="form-group">
+                    <input class="col-sm-10" id="SearchText" type="text" placeholder="جستجوی فیلم، سریال، بازیگر، کارگردان و...">
+                    <button class="col-sm-2" id="SearchSubmit" type="submit" >
+                        <i class="fa fa-search"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+        <div class="col-sm-2"></div>
+    </div>
+    <div class="row fake-margin"></div>
+    <div class="container-fluid row navbar-top text-right" >
+        <ul class="nav navbar-nav">
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">آخرین ها
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#">Page 1-1</a></li>
+                    <li><a href="#">Page 1-2</a></li>
+                    <li><a href="#">Page 1-3</a></li>
+                </ul>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">فیلم
+                <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">سریال
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">انیمیشن
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">مستند
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">مجموعه ها
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">انیمه
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">دوبله
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">زیک زاک
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">باکس آفیس
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">آنونس
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+            <li class="menu-item dropdown">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="#home">برترین ها
+                    <span class="caret"><i class="fa fa-angle-down"></i></span></a>
+            </li>
+        </ul>
+        
+    </div>
+</div>
+
+<div class="main">
+    <div id="main-fake-margin"></div>
+
+    <div id="mainCarousel">
+        <div id="carousel-reviews" class="carousel slide" data-ride="carousel" data-interval="false">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster1.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster2.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster3.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster4.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster5.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster6.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster7.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster8.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster9.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster10.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster11.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster12.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster13.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster14.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                    <div class="subitem col-md-2">
+                        <img src="../res/poster15.jpg" alt="Los Angeles">
+                        <div class="info">
+                            <a href="#"><i class="fa fa-arrow-circle-o-down"></i></a>
+                            <a href="#"><i class="fa fa-heart"></i></a>
+                            <a href="#"><i class="fa fa-caret-square-o-right"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <a class="right carousel-control" href="#carousel-reviews" role="button" data-slide="prev">
+                <span class="glyphicon glyphicon-chevron-right"></span>
+            </a>
+            <a class="left carousel-control" href="#carousel-reviews" role="button" data-slide="next">
+                <span class="glyphicon glyphicon-chevron-left"></span>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-links">
+            <ul class="list footer-links-list">
+                <li class="footer-item">
+                    <a href="#home">درخواست فیلم</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">اشتراک ویژه</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">باکس آفیس</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">نرم افزارهای موردنیاز</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">پرسش های متداول</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">درباره ما</a>
+                    &nbsp;&nbsp;&nbsp;&nbsp;|
+                </li>
+                <li class="footer-item">
+                    <a href="#home">تماس باما</a>
+                </li>
+            </ul>
+        </div>
+        <div id="footer-hint">
+            <a href="#home">محتوای این سایت مطابق با فرهنگ خانواده های ایرانی می باشد
+            </a>
+        </div>
+        <div id="footer-follow">
+            <a class="footer-follow-link" href="twitter" >
+                <img src="../res/twitter.PNG">
+            </a>
+            <a class="footer-follow-link" href="telegram" >
+                <img src="../res/telegram.PNG">
+            </a>
+            <a class="footer-follow-link" href="instagram" >
+                <img src="../res/instagram.png">
+            </a>
+            <a class="footer-follow-link" href="googlep" >
+                <img src="../res/googlep.png">
+            </a>
+        </div>
+        <div id="footer-text">
+            <p>مجموعه دیتابیس فیلم امیرکبیر، باهدف ایجاد یک تجربه ی مشترک آموزشی و تفریحی برای دانشجویان دانشگاه صنعتی امیرکبیر ایجادشده و هیچ گونه استفاده تجاری ندارد. درصورتی که از این سایت و امکانات آن لذت می برید، آن را به دوستان خود هم معرفی کنید.
+            </p>
+        </div>
+
+    </div>
+    <div id="footer-border">
+
+    </div>
+    <div id="footer-copy-right">
+        <p>تمامی حقوق این وب سایت متعلق به دیتابیس فیلم امیرکبیر می باشد</p>
+    </div>
+</div>
+
+</body>
+</html>

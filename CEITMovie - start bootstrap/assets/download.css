@@ -1,0 +1,483 @@
+body, input, button{
+    font-family: "B Yekan+";
+}
+
+#LoginRegister:hover{
+    color: white;
+    background-color: blue;
+}
+
+.main{
+    width: 100%;
+}
+#main-fake-margin{
+    width: 100%;
+    height: 145px;
+    background-color: transparent;//necessary for empty div to get space
+}
+
+
+.option-content{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+
+
+#video-main{
+    margin-bottom: 50px;
+    background-color: #EE8030;
+    position: relative;
+}
+.video-title{
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 10px 0 20px 0;
+}
+.video-title h4{
+    color: white;
+    font-weight: bold;
+}
+.video-genre{
+    padding: 0;
+}
+.video-genre a{
+
+}
+.video-genre li{
+    padding-left: 5px;
+    padding-right: 0;
+}
+.video-genre span{
+    background: #e9d8d6;
+    border-radius: 6px;
+    border: 3px solid #888888;
+    padding: 3px;
+    font-size: 12px;
+    text-align: center;
+    display: inline-block;
+}
+
+.video-details{
+    position: relative;
+    height: 320px;
+    background-image: url("../res/background.jpg");
+}
+.video-details2{
+    z-index: 1;
+    position: absolute;
+    height: 320px;
+    width: 100%;
+    background: linear-gradient(to left, black, black , rgba(0,0,0,0), rgba(0,0,0,0),  rgba(0,0,0,0));
+    top: 0;
+}
+.video-details-content{
+    z-index: 2;
+    height: inherit;
+    width: 85%;
+    margin-right: auto;
+    margin-left: auto;
+}
+.video-img{
+    position: relative;
+    height: inherit;
+    padding-right: 5px;
+}
+.video-img .img-wrapper{
+    z-index: 2;
+    position: absolute;
+    background-color: #EE8030;
+    padding: 10px;
+    top: -30px;
+}
+.video-info{
+    z-index: 2;
+}
+
+
+
+
+
+.download-content{
+}
+.subtitle-content {
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+.comments-content{
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+.review-content{
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+.cast-content{
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+.awards-content{
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+.gallery-content{
+    padding: 50px 50% 50px 0;
+    display: none;
+}
+
+.movie-options{
+    margin-top: 30px;
+}
+.movie-options-list{
+    width: 100%;
+    font-size: 17px;
+    box-sizing: border-box;
+    display: table;
+}
+.movie-options-list li{
+    padding: 0px;
+    width: 15%;
+    display: table-cell;
+}
+.movie-options-list li a{
+    text-align: center;
+    color: gray;
+    height: 40px;
+    display: block;
+    border-bottom: 1px solid gray;
+}
+.movie-options-list li a:hover, .movie-options-list li:first-child a{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.rating{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#progressbar{
+    position: relative;
+    height: 4px;
+    width: 400px;
+    background-color: transparent;
+    direction: ltr;
+}
+#progressbar-track{
+    z-index:1;
+    width: inherit;
+    height: inherit;
+    background-color: gray;
+}
+#progressbar-thumb{
+    position: absolute;
+    top: 0;
+    z-index:2;
+    width: 80%;
+    height: inherit;
+    background-color: #15C680;
+}
+#rate-progress-p-top{
+
+    color: #15C680;
+    font-size: 18px;
+}
+
+#rate-progress-p-bottom{
+    color: lightgray;
+    font-size: 18px;
+}
+.recommended{
+    width: 300px;
+}
+.recommended p{
+    color: #4040FF;
+    font-size: 21px;
+}
+.rate{
+    text-align: center;
+}
+.rate p{
+    font-size: 20px;
+    width: 300px;
+    color: #BBBBBB;
+}
+
+#rate-btn{
+    display: inline-block;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 12px 25px 12px 25px;
+    color: white;
+    background-color: #5050FF;
+}
+#rate-btn:hover{
+    background-color: #6060FF;
+}
+.space{
+    background-color: lightgray;
+    width: 100%;
+    height: 1px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.filter{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.filter-types{
+    display: flex;
+    align-items: center;
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 15%;
+}
+.filter-types span.title-selected{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+	padding: 5px;
+    width: 90%;
+}
+.filter-types span.title{
+    color: gray;
+    padding-left: 3px;
+}
+.filter-types span.selected{
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 5px 15px 5px 15px;
+    margin-right: 5px;
+    background-color: #4080FF;
+    color: white;
+    font-weight: bold;
+}
+.filter-types i{
+    color: gray;
+    font-size: 27px;
+    width: 10%;
+}
+#filter-language span.selected{
+    border-color: black;
+    background-color: white;
+    color: black;
+}
+#filter-language span.title{
+    padding: 0;
+}
+#filter-Season span.selected{
+    background-color: gray;
+}
+#filter-Season{
+
+}
+
+.display-model{
+    background-color: white;
+    border: 1px solid lightgray;
+    border-radius: 5px;
+    width: 5%;
+}
+.display-icon{
+    padding: 6px;
+    font-size: 28px;
+}
+.statement a, .statement i{
+    color: #E57D22;
+    font-size: 20px;
+}
+.filter-apply{
+    margin: 20px 5px 0px 5px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+.filter-apply input[type=radio]{
+    position: absolute;
+    opacity: 0;
+}
+.filter-apply input[type=radio]:checked ~ .mark{
+    visibility: visible;
+}
+.filter-apply p{
+    display: inline;
+}
+.filter-apply-radio{
+    position: relative;
+    padding: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.filter-apply .checkmark{
+    display: inline-block;
+    height: 12px;
+    width: 12px;
+    margin: 5px;
+    background-color: white;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.filter-apply .mark{
+    position: absolute;
+    top: 32px;
+    right: 16px;
+    display: inline-block;
+    height: 8px;
+    width: 8px;
+    background-color: black;
+    border-radius: 50%;
+    border: transparent;
+    visibility: hidden;
+}
+.download-title-bar p{
+    margin: 0;
+    padding: 2px;
+    display: inline-block;
+    color: blue;
+    border-bottom: 3px solid #3030FF;
+}
+.download-title-bar div{
+    background-color: #3030FF;
+    height: 3px;
+}
+.download-list{
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+.download-item{
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+
+}
+.download-size{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 10px 5px 10px;
+    border-radius: 0 8px 8px 0;
+    width: 10%;
+    background-color: black;
+}
+.download-size i, .download-size span{
+    color: white;
+    padding: 5px;
+}
+.download-subtitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #202020;
+}
+.download-subtitle p{
+     display: inline-block;
+     margin: 0;
+     color: white;
+     font-weight: bold;
+     font-size: 20px;
+ }
+.download-subtitle i{
+    color: white;
+}
+.download-basket{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 6%;
+    background-color: #404040;
+}
+.download-basket i{
+    color: white;
+}
+.download-details{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 63%;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+}
+
+.download-details-right, .download-details-lefts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 10px 0 10px;
+    font-size: 18px;
+}
+.download-details-right i{
+    padding: 0 10px 0 30px;
+    margin: 0;
+}
+.download-details p{
+    padding: 0 10px 0 10px;
+    margin: 0;
+}
+.download-details p.kbps{
+    padding: 0 2px 0 2px;
+    margin: 0;
+}
+.download-details-lefts img{
+    height:inherit;
+    width: inherit;
+}
+
+.download-resolution{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 15%;
+    border-radius: 8px 0 0 8px;
+}
+.download-resolution p{
+    color: white;
+    padding: 0 5px 0 5px;
+    margin: 0;
+}
+.download-resolution p.resolution-bold{
+    font-weight: bold;
+    font-size: 18px;
+}
+
+
+
+.background-green{
+    background-color: #00CCAA;
+}
+.background-yellow{
+    background-color: #F8D50E;
+}
+.background-blue{
+    background-color: #33BBDD;
+}
+.border-color-green{
+    border-color: #00CCAA;
+}
+.border-color-yellow{
+    border-color: #F8D50E;
+}
+.border-color-blue{
+    border-color: #33BBDD;
+}
+.color-green{
+    color: #00CCAA;
+}
+.color-yellow{
+    color: #F8D50E;;
+}
+.color-blue{
+    color: #33BBDD;
+}

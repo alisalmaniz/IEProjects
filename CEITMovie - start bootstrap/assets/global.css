@@ -1,0 +1,206 @@
+::-webkit-scrollbar {
+    width: 15px;
+}
+::-webkit-scrollbar-track {
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);*/
+
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 0px;
+    /*-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);*/
+    background-color: rgb(70,70,255);
+}
+
+body{
+    direction: rtl;
+    font-family: "B Yekan+";
+    font-size: 17px;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+a:hover, a:visited, a:link, a:active{
+    text-decoration: none;
+}
+
+.caret{
+    height: 15px;
+    line-height: 0;
+    border: none;
+    margin-right: 3px;
+}
+.caret i{
+    font-size: 15px;
+    margin-right: 0;
+}
+.menu-item a{
+    color: #9c9c9c;
+}
+.header{
+    top: 0;
+    left: 0;
+    z-index:100000;
+    height: 130px;
+    background-color: white;
+}
+.header .fake-margin{
+    height: 10px;
+}
+.header-content{
+}
+.login-register{
+    margin-top: 20px;
+}
+.search{
+    background-color: #EEEEEE;
+    padding: 5px 20px 5px 10px;
+    border-radius: 10px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+#SearchForm .form-group{
+    margin: 0;
+}
+
+#SearchText{
+    padding: 10px;
+    border: none;
+    color: #BBBBBB;
+    vertical-align: middle;
+    background-color: inherit;
+}
+#SearchText:focus{
+    outline: none;
+}
+#SearchSubmit{
+    border: none;
+    color: #BBBBBB;
+    background-color: inherit;
+}
+.fa-search{
+    font-size: 30px;
+}
+
+#LoginRegister{
+
+    background-color: white;
+    border: 1px solid blue;
+    border-radius: 8px;
+    padding: 10px;
+
+}
+
+#LoginRegister2{
+    padding: 12px;
+    margin: 10px;
+    border-radius: 50%;
+    color: white;
+    background-color: blue;
+}
+
+.navbar-top{
+    background-color: #EEEEEE;
+    text-align: right;
+    height: 50px;
+    padding-right: 100px;
+}
+
+
+.list{
+    display: inline-block;
+    overflow: hidden;
+    list-style: none;
+}
+
+.list li {
+    padding-right: 15px;
+    display: inline-block;
+    color: #BBBBBB;
+}
+.list a {
+
+    color: #AAAAAA;
+}
+.list a:hover {
+
+    color: black;
+}
+
+.main{
+    width: 100%;
+}
+
+#main-fake-margin{
+    height: 130px;
+    background-color: transparent;/*necessary for empty div to get space*/
+}
+
+
+
+.footer{
+
+}
+.footer-content{
+    margin-right: 200px;
+    margin-left: 200px;
+    padding: 10px;
+}
+.footer-links{
+    height: 60px;
+    padding: 0;
+    text-align: center;
+
+}
+.footer-item a{
+    color: gray;
+}
+#footer-hint{
+    padding: 15px;
+    float: right;
+    width: 300px;
+    box-sizing: border-box;
+    margin-left: 50px;
+}
+#footer-hint a{
+    width: 100%;
+    display: inline-block;
+    line-height: 40px;
+    text-align: center;
+    color: gray;
+    border: 2px solid gray;
+    border-radius: 8px;
+    padding: 10px;
+    font-size: 20px;
+}
+#footer-text{
+    font-size: 18px;
+    line-height: 40px;
+    color: gray;
+    text-align: justify;
+}
+#footer-follow{
+    float: right;
+    clear: right;
+    width: 290px;
+    padding: 10px;
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.footer-follow-link img{
+    height: 50px;
+    width: 50px;
+}
+#footer-border{
+    margin-top: 20px;
+    border-top: 1px solid blue;
+}
+#footer-copy-right{
+    display: inline-block;
+    color: blue;
+    height: 45px;
+    margin-top: 20px;
+}

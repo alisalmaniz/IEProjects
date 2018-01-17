@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>salma</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="../assets/global.css" type="text/css" media="all"/>
+    <link rel="stylesheet" href="../assets/login.css" type="text/css" media="all"/>
+</head>
+<body>
+    <div class="panel-login-register">
+        <div class="pad">
+            <i class="fa fa-times"></i>
+        </div>
+        <div class="login-or-register">
+            <button class="login-tab">
+                <i class="fa fa-sign-in"></i>
+                <span>ورود</span>
+            </button>
+            <button class="register-tab">
+                <i class="fa fa-user-o"></i>
+                <span>عضویت</span>
+            </button>
+        </div>
+        <div class="login-register-main">
+            <div class="login-google">
+                <button>
+                    <i class="fa fa-google-plus"></i>
+                    <span>ورود با حساب کاربری گوگل</span>
+                </button>
+            </div>
+            <div class="space">
+                <div></div>
+                <span>یا</span>
+            </div>
+            <form class="login-form" method="post" action="login">
+                <div class="getText">
+                    <span>
+                        <span>شناسه ورود</span>
+                        <span class="color-red">*</span>
+                    </span>
+                    <input class="edit-text" type="text" placeholder="  شماره موبایل یا ایمیل">
+                </div>
+                <div class="getText">
+                    <span>
+                        <span>رمز عبور</span>
+                        <span class="color-red">*</span>
+                    </span>
+                    <input class="edit-text" type="text" placeholder="  رمز عبور">
+                </div>
+                <div class="getText">
+                    <span>
+                        <span>کد امنیتی</span>
+                        <span class="color-red">*</span>
+                    </span>
+                    <div>
+                        <input class="edit-text" type="text" placeholder="  کد امنیتی">
+                        <img src="../res/captcha.png">
+                        <span class="space"></span>
+                        <i class="fa fa-refresh"></i>
+                    </div>
+                </div>
+                <div class="statements">
+                    <label>
+                        <input type="checkbox" name="remember-me" value="yes" >
+                        <span class="checkmark"></span>
+                        <i class="fa fa-check mark"></i>
+                        <p>مرا به خاطر بسپار</p>
+                    </label>
+                    <a href="recover" class="recover-pass"> بازیابی رمز عبور</a>
+                </div>
+                <div class="login-button">
+                    <button>
+                        <span>ورود</span>
+                    </button>
+                </div>
+
+            </form>
+        </div>
+
+    </div>
+</body>
+</html>
